@@ -2,5 +2,31 @@
   "pages": [
     "pages/home/home",
     "pages/about/about"
-  ]
+  ],
+  "sitemapLocation": "sitemap18.json",
+  "window": {
+    "navigationBarBackgroundColor": "#ff66cc",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的商城",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "tabbar/home.jpg",
+        "selectedIconPath": "tabbar/home.jpg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "tabbar/about.png",
+        "selectedIconPath": "tabbar/about.png"
+      }
+    ],
+    "color": "#ff66cc"
+  }
 }
